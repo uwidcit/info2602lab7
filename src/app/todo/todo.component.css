@@ -1,0 +1,32 @@
+main{
+    padding: 2em;
+    background-color: #E0E0E0;
+    min-height: calc(100% - 64px);
+    box-sizing: border-box;
+}
+
+#create-card{
+    margin-left: auto;
+    margin-right: auto;
+    width: 500px;
+}
+    
+.example-form {
+    min-width: 150px;
+    max-width: 500px;
+    width: 100%;
+}
+
+.example-full-width {
+    width: 100%;
+}
+
+#createBtn{
+    position: absolute;
+    right: 10px;
+}
+
+mat-card{
+    margin:10px;
+}
+  

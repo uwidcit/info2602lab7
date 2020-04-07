@@ -13,6 +13,7 @@ export class AuthService {
 
   login({username, password}) {
     this.token = "jwtToken";
+    return {token :this.token};
   }
 
   isAuth(){
